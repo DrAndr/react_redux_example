@@ -1,6 +1,5 @@
 import './App.css';
 import Likes from './components/Likes'
-import store from './redux/store';
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
         <div className="card">
           <div className="card-image">
             <img src="./sp.webp" alt="surfing" />
-            <Likes store={store} />
+            <Likes />
           </div>
         </div>
       </div>

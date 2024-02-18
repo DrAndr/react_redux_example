@@ -19,8 +19,9 @@ function Likes(props) {
 
 function mapStateToProps(state) {
     console.log('mapStateToProps > ', state);
+    const { lilesReducer } = state;
     return {
-        likes: state.likes,
+        likes: lilesReducer.likes,
     }
 }
 
